@@ -19,7 +19,7 @@ export default function Home() {
         
         <div className="relative z-10 text-center px-4">
           <motion.h1 
-            className="text-8xl font-bold mb-6"
+            className="text-4xl md:text-6xl lg:text-8xl font-bold mb-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -31,7 +31,7 @@ export default function Home() {
           </motion.h1>
           
           <motion.p 
-            className="text-2xl text-white/80 mb-8"
+            className="text-xl md:text-2xl text-white/80 mb-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
