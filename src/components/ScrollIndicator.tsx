@@ -15,7 +15,8 @@ export default function ScrollIndicator() {
     >
       <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
         <motion.div 
-          className="w-1 h-2 bg-white/50 rounded-full mt-2"
+          className="w-1 h-2 rounded-full mt-2 sun-text"
+          style={{ background: 'linear-gradient(to right, #ffd700, #ff8c00)' }}
           animate={{ y: [0, 12, 0] }}
           transition={{
             duration: 1.5,

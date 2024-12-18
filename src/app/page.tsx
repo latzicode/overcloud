@@ -31,12 +31,12 @@ export default function Home() {
           </motion.h1>
           
           <motion.p 
-            className="text-xl md:text-2xl text-white/80 mb-8"
+            className="text-xl md:text-2xl mb-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Dream It, Wear It.
+            <span className="sun-text font-bold">Dream It, Wear It.</span>
           </motion.p>
           
           <motion.button 
